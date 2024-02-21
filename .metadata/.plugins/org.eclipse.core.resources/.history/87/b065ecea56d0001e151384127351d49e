@@ -1,0 +1,38 @@
+package org.kh.java;
+//대입 연산자 : 연산 후에 대입하는 연산자 +=, -=, *=, /=, %=, &=, ㅣ=(2진수연산), >>=, <<=, >>>=, ^= 
+public class Operation7 {
+
+	public static void main(String[] args) {
+		int a = 20;
+		int b = 15;
+		int tmp; // null, 임시기억장소(tmp)
+		a += b; // a=35, b=15
+		b -= a; // a=35, b= b-a = 15-35 = -20
+		System.out.println("a = "+a);
+		System.out.println("b = "+b);
+
+		//a와b의 값을 맞교환
+		tmp = a ;
+		a = b;
+		b = tmp;
+		System.out.println("ㅡㅡㅡ교환후ㅡㅡㅡ ");
+		System.out.println("a = "+a);
+		System.out.println("b = "+b);
+		
+		int x = 0b01101;
+		int y = 0b01011;
+		System.out.println("x = "+Integer.toBinaryString(x));
+		System.out.println("y = "+Integer.toBinaryString(y));
+		System.out.println("x&y = "+Integer.toBinaryString(x & y));
+		System.out.println("x|y = "+Integer.toBinaryString(x | y));
+		System.out.println("x^y = "+Integer.toBinaryString(x ^ y));
+		System.out.println("~x = "+Integer.toBinaryString(~x)); //1과0 반대로출력됨
+		
+//x = 1101
+//y = 1011
+//    1001 = & 둘다 1이라 1,하나만 아니여도 0
+//    1111 = | 하나만 1이여도
+
+	}
+
+}

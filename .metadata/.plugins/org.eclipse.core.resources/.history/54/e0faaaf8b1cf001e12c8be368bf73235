@@ -1,0 +1,18 @@
+package org.kh.java;
+
+public class Variable7 {
+
+	public static void main(String[] args) {
+			String name = "이민규";
+			int age = 31;
+			float height = 177.1f;
+			boolean pass = true;
+			double weight = 74.5;
+			
+			System.out.println("name : "+name.getClass().getName());
+			System.out.println("age : "+age.getClass().getName());
+			System.out.println("height : "+height.getClass().getName());
+			System.out.println("wight : "+wight.getClass().getName());
+	}
+
+}

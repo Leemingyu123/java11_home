@@ -1,0 +1,11 @@
+package org.kh.java;
+
+public class Variable3 {
+
+	public static void main(String[] args) {
+		int bin = 10111; //2진수 데이터 입력시 숫자앞에 0b를 붙인다
+		System.out.println("bin="+bin);
+	
+	}
+
+}

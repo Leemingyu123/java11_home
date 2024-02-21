@@ -1,0 +1,15 @@
+package org.kh.java;
+//대입 연산자 : 연산 후에 대입하는 연산자 +=, -=, *=, /=, %=, &=, ㅣ=(2진수연산), >>=, <<=, >>>=, ^= 
+public class Operation7 {
+
+	public static void main(String[] args) {
+		int a = 20;
+		int b = 15;
+		int c;
+		a += b; // a=35, b=15
+		b -= a; // a=35, b= b-a = 15-35 = -20
+		System.out.println("b = "+b);
+		
+	}
+
+}

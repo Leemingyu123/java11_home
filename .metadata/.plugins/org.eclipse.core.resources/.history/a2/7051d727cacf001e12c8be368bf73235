@@ -1,0 +1,12 @@
+package org.kh.java;
+
+public class asfdsf {
+
+	public static void main(String[] args) {
+		chr ch6 = '\u26BD';
+		System.out.println("ch6 :  "+ch6);
+		System.out.println("16진수 : "+Integer.toHexString(ch6));
+
+	}
+
+}

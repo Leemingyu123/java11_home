@@ -1,0 +1,11 @@
+package org.kh.java;
+
+public class Varibale8 {
+
+	public static void main(String[] args) {
+		var num1 = 29.456;
+		
+
+	}
+
+}

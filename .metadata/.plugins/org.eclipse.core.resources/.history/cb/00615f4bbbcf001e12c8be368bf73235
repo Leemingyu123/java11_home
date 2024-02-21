@@ -1,0 +1,11 @@
+package org.kh.java;
+
+public class Operaion1 {
+
+	public static void main(String[] args) {
+		int a = 10;
+		float b = 2.0f;
+		System.out.println("a+b + "+a+b);
+	}
+
+}

@@ -1,0 +1,9 @@
+package org.kh.java;
+
+public class Operaion1 {
+
+	public static void main(String[] args) {
+	
+	}
+
+}

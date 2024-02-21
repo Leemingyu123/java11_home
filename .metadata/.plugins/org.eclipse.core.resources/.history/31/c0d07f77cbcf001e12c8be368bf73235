@@ -1,0 +1,21 @@
+package org.kh.java;
+
+public class asfdsf {
+
+	public static void main(String[] args) {
+		short ch6 = '\u26BD';
+		System.out.println("ch6 :  "+ch6);
+		System.out.println("16진수 : "+Integer.toHexString(ch6));
+		System.out.println("2진수 : "+Integer.toBinaryString(ch6));
+		System.out.println("8진수 : "+Integer.toOctalString(ch6));
+		System.out.println("10진수 : "+Integer.toString(ch6));
+		System.out.println("11 : "+(int)ch6);
+		System.out.println("11 : "+(byte)ch6);
+		System.out.println("11 : "+(short)ch6);
+		System.out.println("11 : "+(long)ch6);
+
+
+
+	}
+
+}

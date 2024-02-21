@@ -1,0 +1,13 @@
+package org.kh.java;
+
+public class Operaion1 {
+
+	public static void main(String[] args) {
+		String name = "이민규";
+		
+		System.out.printf("이름 : %s ",name);
+		System.out.println("\n이름 : "+name);
+
+	}
+
+}
