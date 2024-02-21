@@ -11,7 +11,7 @@ public class variable4 {
 		
 		System.out.printf("\n이름 : \" %s \"",name);
 		System.out.printf("\n나이 : %d", age);
-		System.out.printf("%n키 : %f", height);
+		System.out.printf("%n키 : %.2f", height);
 		System.out.printf("%n체중 : %.3f", weight);
 		System.out.println("\n이니셜 : "+init);
 		System.out.println("\n이름 : "+name);

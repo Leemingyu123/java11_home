@@ -8,7 +8,7 @@ public class Variable1 {
 //		byte b = -129;	 //해당 공간에 저장할 수 있는 숫자보다 더 작은 숫자이므로 underflow
 		byte b = 126;	 //1byte=8bit=256가지(-128~127)
 		short c = 6524;	 //2byte=16bit=65536가지(-32768~32767)
-		char d = 'k';	 // 2byte
+		char d = 'k';	 // 2byte  따옴표만
 		int e = 234567;	 //4byte
 		float f = 3.14f; //4byte
 		long g = 23456789; 	//8byte
