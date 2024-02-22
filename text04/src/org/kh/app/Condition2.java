@@ -10,10 +10,7 @@ public class Condition2 {
 			if(sel=='1' || sel =='3') gender = "남성";
 			else gender="여성";
 		//char 숫자가아니라 문자라 따옴표를 써야한다
-			 if(sel2=='1' || sel2 =='3') {gender = "남성";}
-			 else {gender="여성";}
-			
-			
+		
 			System.out.printf("당신의 성별은 %s", gender);
 	}
 

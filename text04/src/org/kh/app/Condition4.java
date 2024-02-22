@@ -142,7 +142,7 @@ public class Condition4 {
 		System.out.println("당신의 시상내역 : "+remark);
 		
 		
-		System.out.printf("\n당신의 점수는 %d 입니다. ", point);
+		System.out.printf("%n당신의 점수는 %d 입니다. ", point);
 		System.out.println("\n당신의 학점은 "+result);
 		
 		
