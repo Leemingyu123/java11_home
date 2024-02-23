@@ -12,7 +12,7 @@ public class Loop3 {
 		}
 		
 		for(int i=0;i<nums.length;i++) {
-			System.out.println(i+"는"+nums[i]);
+			System.out.println(i+" = "+nums[i]);
 		}
 		
 	}

@@ -13,6 +13,7 @@ public class Loop7 {
 			System.out.print(val+"\t");
 		}
 		
+		
 	}
 
 }

@@ -29,15 +29,15 @@ public class Condition5 {
 		case 3 : sisang = "아차상";
 		break;
 		default:
-		sisang= "";
+			   	 sisang= "";
 		}
 		String remark = "";
 		switch(rank) {
-		case 1:
-		case 2:
-		case 3:
-		case 4:
-		case 5:
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
 			remark = "우등생";
 			break;
 			default:
