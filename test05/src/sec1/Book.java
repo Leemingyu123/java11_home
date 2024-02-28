@@ -9,7 +9,7 @@ public class Book {
 	private String pub;
 	
 	public void print() {
-		System.out.println("교재정보 :");
+		System.out.println("교재정보 ");
 	}
 	public void print(String bname) {
 		System.out.println("교재명 : "+bname);

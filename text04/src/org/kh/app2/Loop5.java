@@ -39,6 +39,8 @@ public class Loop5 {
 			hap+=k;
 		}
 		System.out.println("hap :"+hap);
+		
+		
 	}
 
 }

@@ -25,7 +25,7 @@ public class Loop4 {
 		
 		//해당 숫자를 입력하면, 구구단 중 해당 숫자의 단을 출력하시오.
 		Scanner sc = new Scanner(System.in);
-		System.out.print("숫자 입력[2~9] : ");
+		System.out.print("구구단[2~9] : ");
 		int n = sc.nextInt();
 		/*
 		int j = 0;

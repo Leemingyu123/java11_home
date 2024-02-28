@@ -21,12 +21,12 @@ public class Loop1 {
 		 */
 		for(int i=0;i<10;i++) //0 1 2~9 //i는0이고-> 10보다 작다->i는1씩후위증가
 			{n = n+1;}	     //1 2 3~10
-		System.out.println("n ="+n);
+			System.out.println("n ="+n);
 		// []는 배열에쓰인다
 		int[] nums = {80, 95, 75, 60, 100, 65,70,90,85,95};//배열, 순번은 0을시작9로끝
 		String names[] = {"김","이","박","최","정","오","배","강","장","계"}; //[]위치
 		int tot = 0;
-		System.out.println("nums : "+nums);
+			System.out.println("nums : "+nums);
 			System.out.println("names : "+names);
 			System.out.println("\n이름\t점수\t학점\t판정");
 		int max=nums[0], min=nums[0]; //== max=0, min=100;

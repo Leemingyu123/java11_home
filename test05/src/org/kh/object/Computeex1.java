@@ -17,7 +17,7 @@ public class Computeex1 {
 		
 		fnc1();
 		fnc2(50);
-		System.out.println(fnc3());
+		System.out.println("리턴값 : "+fnc3());
 		System.out.println("원의넓이 : "+fnc4(25));
 	}
 	//함수(Function) : 정의 호출

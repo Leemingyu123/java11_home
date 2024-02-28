@@ -56,6 +56,8 @@ public class Board {
 	}
 
 	
+	
+	
 	// 우클릭 sourse-getter setter
 	public int getBno() {
 		return bno;

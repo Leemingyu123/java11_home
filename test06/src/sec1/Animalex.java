@@ -39,6 +39,7 @@ class Animal{
 	
 	
 }//public 쓰면 오류남, 메인은 Animalex 이기때문
+
 public class Animalex {
 	public static void main(String[] args) {
 		Animal ani1 = new Animal();
