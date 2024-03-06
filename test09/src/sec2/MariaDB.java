@@ -1,5 +1,5 @@
 package sec2;
-
+//MariaDB 구현체
 public class MariaDB implements Database {
 	final static String DRIVER = "org.mariadb.jdbc.Driver";
 	final static String URL = "jdbc:mariadb://localhost";

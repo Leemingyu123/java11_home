@@ -21,9 +21,11 @@ public class Arithmatic extends Repeator {
 		for(int i = 1;i<num2;i++) {
 			num1 = num1*tmp;
 		}
-		return num1;
-		
+		return num1;	
 	}
 	
+	public void print() {
+		System.out.println("계산기, 중계기, 연산기를 구현합니다.");
+	}
 
 }

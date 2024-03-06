@@ -19,6 +19,9 @@ public class Notebook implements Computer{
 		if (sw) System.out.println("노트북의 전원을 켭니다.");
 		else System.out.println("노트북의 전원을 끕니다.");
 	}
-	
+	//오버로딩된 power 메소드
+	public void power(String model, boolean sw) {
+		
+	}
 
 }

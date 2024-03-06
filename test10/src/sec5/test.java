@@ -12,10 +12,11 @@ public class test {
 			
 			int input = sc.nextInt();
 			
-			if(input<=9) {
+			if(input <= 9 && input >= 2) {
 				for(int num = 1; num <=9;num++) {
 					System.out.printf("%d*%d = %d\n", input, num, input*num);
 				}
+				break;
 			}else {
 				System.out.println("2이상 9이하의 정수만 입력하세요.");
 			}

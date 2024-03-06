@@ -1,5 +1,5 @@
 package sec2;
-//구현체
+//Oracle 구현체
 public class Oracle implements Database {
 	final static String DRIVER = "oracle.jdbc.driver.OracleDriver";
 	final static String URL = "jdbc:oracle:thin:@localhost";

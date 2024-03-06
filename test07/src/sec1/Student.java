@@ -1,12 +1,22 @@
 package sec1;
-//필드 : 번호, 국어,영어,수학점수
+//필드 : 번호, 국어, 영어, 수학점수
 //메소드 :getter/setter 및 총점, 평균, 학점계산
+
 public class Student {
 	private int num;
 	private int kor;
 	private int eng;
 	private int mat;
 	
+	
+	public Student () {}
+	public Student(int num, int kor, int eng, int mat) {
+		super();
+		this.num = num;
+		this.kor = kor;
+		this.eng = eng;
+		this.mat = mat;
+	}
 	public int tot() { //메소드 앞에 퍼블릭 
 		return kor+eng+mat;
 	}

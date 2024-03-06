@@ -20,6 +20,23 @@ public class ArrayCopy1 {
 			for(int i=0;i<arr3.length;i++) {
 				System.out.println(i+":"+arr3[i]);
 		}
+		System.out.println("arr1, arr2, arr3 의 주소 출력");
+		System.out.println("arr1 : "+arr1);
+		System.out.println("arr2 : "+arr2);
+		System.out.println("arr3 : "+arr3);
+		arr1[2] = 75;
+		System.out.println("arr1");
+		for(int i=0;i<arr1.length;i++) {
+			System.out.println(i+":"+arr1[i]);
+		}
+		System.out.println("arr2");
+		for(int i=0;i<arr2.length;i++) {
+			System.out.println(i+":"+arr2[i]);
+		}
+		System.out.println("arr3");
+		for(int i=0;i<arr3.length;i++) {
+			System.out.println(i+":"+arr3[i]);
+		}
 
 	}
 

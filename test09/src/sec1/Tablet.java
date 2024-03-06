@@ -18,7 +18,10 @@ public class Tablet implements Computer {
 		else System.out.println("태블릿의 전원을 끕니다.");
 
 	}
-	
+	//오버로딩된 power 메소드
+		public void power(String model, boolean sw) {
+			
+		}
 	
 
 }

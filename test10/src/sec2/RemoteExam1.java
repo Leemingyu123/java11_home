@@ -4,6 +4,8 @@ public class RemoteExam1 {
 	
 	public static void main(String[] args) {
 		RemoteControl r1;
+		
+		//RemoteControl() 로 객체를 생성하려면, 구현 내용을 기술해야함
 		r1 = new RemoteControl(){
 			int volume;
 			@Override
@@ -32,7 +34,12 @@ public class RemoteExam1 {
 
 		};
 		
-		
+		RemoteControl.changeBattery();
+		r1.turnOn();
+		r1.setVolume(4);
+		r1.setMute(true);
+		r1.setMute(false);
+		r1.turnOff();
 
 
 

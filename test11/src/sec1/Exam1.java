@@ -3,7 +3,7 @@ package sec1;
 public class Exam1 {
 
 	public static void main(String[] args) {
-		int a = 1004;
+		int a = 1004;	//기본형
 		int b = 1004;
 		System.out.println(a==b); 		// 단순 정수의 값 비교
 		String s1 = "김기태";		//String은 기본형x, 참조형x

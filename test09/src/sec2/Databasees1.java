@@ -1,5 +1,5 @@
 package sec2;
-
+//추상화 정의/필요성/사용법
 public class Databasees1 {
 
 	public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class Databasees1 {
 		db = new MariaDB();
 		db.connect(MariaDB.URL, MariaDB.PORT+"", MariaDB.ID, MariaDB.PW);
 		db.select("board", " where title like \'%\'+알림+\'%\'");
-		db.insert("board", "\'제목11\'", 11);
+		db.insert("board", "\'제목12\'", 12);
 		
 	}
 

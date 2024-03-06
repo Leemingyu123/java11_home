@@ -14,11 +14,11 @@ public class Studentex {
 	
 	public static void main(String[] args) {
 		//5명의 학생을 배열 객체선언
-		Student[] s = new Student[5];
+		Student[] s = new Student[5];	//5명의 학생(Student) 배열 객체 선언
 		Scanner scn = new Scanner(System.in);
 		for(int i=0;i<5;i++) {
 			s[i] = new Student(); // 개별 객체생성
-			s[i].setNum(i+1);
+			s[i].setNum(i+1);	//번호 자동부여
 			
 			System.out.print((i+1)+"번째 국어 :");
 			s[i].setKor(scn.nextInt());
@@ -29,7 +29,7 @@ public class Studentex {
 		}
 		System.out.println("번호\t국어\t영어\t수학\t총점\t평균\t학점\t");
 		for(int i =0;i<5;i++) {
-			s[i].print();
+			s[i].print();	//개별 객체 반복 출력
 		}
 	}
 

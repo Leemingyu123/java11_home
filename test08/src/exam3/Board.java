@@ -9,6 +9,7 @@ public class Board {
 	private String resdate;
 	private int visited;
 	
+	public Board () {}
 	public Board(int bno, String title, String uname, String content, String resdate, int visited) {
 		
 		this.bno = bno;

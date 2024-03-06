@@ -1,5 +1,5 @@
 package sec2;
-
+//Mysql 구현체
 public class Mysql implements Database {
 
 	final static String DRIVER = "org.mariadb.jdbc.Driver";
