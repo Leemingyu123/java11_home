@@ -5,11 +5,11 @@ public class ExceptionExam4 {
 	public static void main(String[] args) {
 		String data1 = "1004";
 		String data2 = "kim1004";
-		
+		int val1, val2;
 		
 		try {
-			int val1 = Integer.parseInt(data1);
-			int val2 = Integer.parseInt(data2);//여기서 발생 	 //숫자정수로 변환활 수 없는 문자열
+			val1 = Integer.parseInt(data1);
+			val2 = Integer.parseInt(data2);//여기서 발생 	 //숫자정수로 변환활 수 없는 문자열
 			
 			System.out.println(val1);//발생안됨
 			System.out.println(val2);

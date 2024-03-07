@@ -18,12 +18,22 @@ class Outer3 {	//외부클래스
 	}
 	//익명의 실행 인스턴스(객체)를 Runnable 생성
 	//Runnable runner = new Runnable();	//Runnable은 인터페이스오류남
-
+	Runnable runner = new Runnable() {
+		@Override
+		public void run() {
+			System.out.println("Runnable로 구현된 익명의 내부 클래스~!");
+		}
+	};
 }
 public class AnonymousInnerExam {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Outer3 out = new Outer3();
+		out.getRunnable(500);	//오류는 없지만 Runnable이 만들어지지 않아 구현 내용은 실행이 되지 않음.
+		out.runner.run();
+		
+		Runnable runAble = out.getRunnable(500);	//외부 클래스의 내부 클래스 없이 생성된 인스턴스(runAble)는 Runnable 로 선언하여 생성한다. 
+		runAble.run();
 
 	}
 

@@ -49,10 +49,14 @@ public class GenericExam3 {
 
 	public static void main(String[] args) {
 		Plastic p1 = new Plastic();
-		
+		p1.doPrinting();
 		GenericPrint<Plastic> g1 = new GenericPrint<>(p1);
 		
+		Powder p2 = new Powder();
+		p2.doPrinting();
+		GenericPrint<Powder> g2 = new GenericPrint<>(p2);
 		
+		//GenericPrint<Student> g3 = new GenericPrint<>(); //Student 클래스는 Matrial 인터페이스의 자식 클래스에 해당하지 않으므로 오류 발
 
 	}
 

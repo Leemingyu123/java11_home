@@ -4,12 +4,12 @@ public class GenericExam {
 
 	public static void main(String[] args) {
 		
-		Generic1<Student> s = new Generic1<Student>();
+		Generic1<Student> s = new Generic1<>();
 		Student a = new Student("장원영", 21);
 		s.setField1(a);
 		
-		Generic1<Teacher> t = new Generic1<Teacher>();
-		Teacher b= new Teacher("김기태", 43);
+		Generic1<Teacher> t = new Generic1<>();
+		Teacher b = new Teacher("김기태", 43);
 		t.setField1(b);
 		
 		Generic1<Integer> i = new Generic1<>(); // 기본형 int는 안됨

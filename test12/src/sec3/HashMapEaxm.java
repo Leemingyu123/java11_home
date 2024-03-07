@@ -23,7 +23,33 @@ public class HashMapEaxm {
 		}};
 		
 		HashMap<Integer, String> fruits = new HashMap<>();
+		fruits.put(1, "사과");	//요소(Entry) 추가
+		fruits.put(2, "딸기");
+		fruits.put(3, "샤인머스켓");
+		fruits.put(4, "망고");
+		fruits.put(5, "납작복숭아");
+		fruits.put(6, "키위");
+		fruits.put(7, "바나나");
 		
+		System.out.println("변경 전");
+		System.out.println(fruits);
+		
+		fruits.remove(4);	//키가 4인 요소 지우기
+		
+		System.out.println("변경 후");
+		System.out.println(fruits);
+		
+		//fruits.clear(); //HashMap의 비우기
+		for(Integer i:fruits.keySet()) {
+			System.out.println(i+":"+fruits.get(i));
+		}
+		
+		if(fruits.containsValue("키위")) {
+			System.out.println("해당 HashMap에 키위가 존재합니다.");
+		} else {
+			System.out.println("해당 HashMap에 키위가 존재하지 않아 추가하였습니다.");
+			fruits.put(8, "키위");
+		}
 		
 	}
 

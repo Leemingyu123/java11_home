@@ -25,4 +25,25 @@ public class Student {
 		this.name = name;
 	}
 	
+	@Override
+	public int hashCode() {
+		return Integer.parseInt(no);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof Student) {
+			Student std = (Student)obj;
+			if(this.no == std.no) 
+				return true;
+			else 
+				return false;
+		}
+		return false;
+	}
+	
+	@Override
+	public String toString() {
+		return no + ":" + name;
+	}
 }

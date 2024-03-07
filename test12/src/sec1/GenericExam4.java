@@ -36,7 +36,11 @@ public class GenericExam4 {
 
 	}
 	public static void main(String[] args) {
+		Point<Integer, Double> p1 = new Point<>(0, 0.0);
+		Point<Integer, Double> p2 = new Point<>(20, 20.0);
 		
+		double area = GenericExam4.<Integer, Double> makeRectangle(p1, p2); //GenericExam4.<Integer, Double> 생략 가능
+		System.out.println("사각형의 면적 : "+area);
 
 	}
 
