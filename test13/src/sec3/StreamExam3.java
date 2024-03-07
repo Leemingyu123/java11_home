@@ -17,10 +17,16 @@ class CompareString implements BinaryOperator<String>{
 public class StreamExam3 {
 
 	public static void main(String[] args) {
-		String[] arr= {"김수한무","거북이와 두루미","삼처갑자 동방삭", "동해물과","Kim","Lee","Lee Ye Ryn"};
-		System.out.println(Arrays.stream(arr).reduce("", (s1, s2)->{
-			if (s1.getBytes().length
+		String[] arr = {"김수한무","거북이와 두루미", "삼척갑자동방삭", "동해물과", "Kim",
+		"Lee Ye Ryn"};
+		System.out.println("Lambda를 활용한 reduce");
+		System.out.println(Arrays.stream(arr).reduce("", (s1, s2) -> {
+			if(s1.getBytes().length >= s2.getBytes().length) return s1;
+		    else return s2;
 		}));
+		System.out.println("BinaryOperator를 활용한 reduce");
+		String res = Arrays.stream(arr).reduce(new CompareString()).get();
+		System.out.println(res);
 		
 	}
 

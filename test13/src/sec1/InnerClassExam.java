@@ -5,7 +5,7 @@ class Outer{	//외부 클래스
 	private int num = 10;	//맴버 필드
 	private static int sNum = 20;	 //정적 맴버 필드 => 데이터 공유
 	
-	private Inner inner;	//인스턴스 내부 클래스
+	public Inner inner;	//인스턴스 내부 클래스
 	public Outer() {	//Outer 생성자를 사용하게 되면, 자동적으로 내부클래스에 대한 인스턴스 생성
 		inner = new Inner();
 	}
