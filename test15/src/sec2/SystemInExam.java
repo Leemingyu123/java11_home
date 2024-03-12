@@ -3,7 +3,7 @@ package sec2;
 import java.io.IOException;
 
 public class SystemInExam {
-
+	//키보드로 한 글자 입력받아 출력 
 	public static void main(String[] args) throws IOException {
 		System.out.println("영문 한 글자를 입력하고, [Enter]를 누르세요");
 		int i;

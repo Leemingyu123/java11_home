@@ -19,13 +19,16 @@ public class DateExam {
 		System.out.println(date3);
 		
 		System.out.println("*****LocalDate*****");
+		
 		LocalDate now1 = LocalDate.now();
 		System.out.println(now1);	//날짜 데이터
 		//날짜 데이터 => 문자열 데이터
 		String now2 = now1.toString();
-		
-		//문자열데이터 => 날짜데이터
+		//문자열 데이터 => 날짜 데이터
 		LocalDate now3 = LocalDate.parse(now2);
+		System.out.println("날짜 데이터 : "+now1);
+		System.out.println("날짜 데이터를 문자열 데이터로 변환 : "+now2);
+		System.out.println("문자열 데이터를 날짜 데이터로 변환 : "+now3);
 		
 
 	}
