@@ -6,7 +6,9 @@ import java.util.Scanner;
 //이름목록의 작성 : 키보드로 이름을 입력받아 이름목록(nameList)에 추가하되,입력값이 clear면, 이름목록 초기화, 입력값이 exit면 반복루프를 종료, 기존값과 중복된 이름이 있으면 이미 존재하는 이름입니다.출력하고 계속 입력모드로 진행되며, 입력값에 대한 이름이 존재하지 않으면 이름목록에 이름을 추가하고 반복이 종료되면, 이름목록을 출력한다.
 public class Test2 {
 	public static void main(String[]args) {
-		
+		//.contains() 특정문자가 포함되어있는지아닌지 String, 객체비교할때
+		//getUser().equals(str) 문자열과 문자비교 여러줄 출력됨
+			//boolean sw = false; sw=true;
 		Scanner sc = new Scanner(System.in);
 		List<String> nameList = new ArrayList<String>();
 		

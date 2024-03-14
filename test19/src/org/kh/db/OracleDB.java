@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class OracleDB {
 	String driver = "oracle.jdbc.driver.OracleDriver"; //ojdbc8.jar
-	String url = "jdbc:oracle:thin:@localhost:1521:xe";
+	String url = "jdbc:oracle:thin:@localhost:1522:xe";
 	String userid = "system";
 	String userpw = "1234";
 	

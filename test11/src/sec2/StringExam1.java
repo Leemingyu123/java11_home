@@ -40,11 +40,11 @@ public class StringExam1 {
 		System.out.println("모두 대문자로 변환하여 up에 저장 : "+up);
 		String down = data.toLowerCase(); 	//모두 소문자로 변환하여 down에 저장
 		System.out.println("모두 소문자로 변환하여 down에 저장 : "+down);
-		String sub1 = data.substring(22,30); 	//공백을 제거하고, 22번째 글자 부터 29번째만 추출
+		String sub1 = data.substring(22,30); 	//****공백을 제거하고, 22번째 글자 부터 29번째만 추출
 		System.out.println("공백을 제거하고, 22번째 글자 부터 29번째만 추출하여 sub1에 저장 : "+sub1);
 		String sub2 = data.replace("newJeasn", "kepler"); 	//newJeans의 단어를 Kepler로 변경하여 sub2에 저장
 		System.out.println("newJeans의 단어를 Kepler로 변경하여 sub2에 저장 : "+sub2);
-		byte[] girl = data.trim().getBytes();	//문자열을 girl 문자배열로 변환하여 저장
+		byte[] girl = data.trim().getBytes();	//****문자열을 girl 문자배열로 변환하여 저장
 		
 		System.out.println("글자 수 : "+girl.length);
 		for(byte b:girl) {
