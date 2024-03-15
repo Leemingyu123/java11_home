@@ -4,5 +4,5 @@
 /**
  * 
  */
-module aasdfhuz {
+module class_exam {
 }

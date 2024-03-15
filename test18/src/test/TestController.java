@@ -7,6 +7,8 @@ public class TestController {
 	public void test1() {
 		Scanner sc = new Scanner(System.in);
 		String[] personArr = new String[5];
+
+		
 		
 		
 		for(int i = 0; i < personArr.length; i++) {	//length()
