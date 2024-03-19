@@ -7,7 +7,11 @@ public class Test3 {
 
 	public static void main(String[] args) {
 		//List<Integer> list = null;
+<<<<<<< HEAD
 		List<Integer> list = new ArrayList<>();	//list 선언만 있으므로 객체 생성이 되어있지 않아 NullPointerException이 발생
+=======
+		List<Integer> list = new ArrayList();	//list 선언만 있으므로 객체 생성이 되어있지 않아 NullPointerException이 발생
+>>>>>>> edfdbf1b8f307cc84e62e8af6d7e2dd67142dc28
 		//int도 안됨 참조형인 Integer 
 		list.add(4);
 		list.add(-5);
